@@ -1,0 +1,11 @@
+{
+    "presets": ["@babel/preset-react", "@babel/preset-env"],
+    "plugins": [
+        ["@babel/transform-runtime"]
+    ],
+    "env": {
+        "test": {
+            "plugins": ["transform-es2015-modules-commonjs", "syntax-dynamic-import"]
+        }
+    }
+}
